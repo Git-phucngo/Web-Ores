@@ -1,0 +1,32 @@
+@charset "ISO-8859-1";
+
+.nav {
+	text-align: center;
+}
+
+ul.nav {
+	background-color: #333;
+	margin: 0;
+	padding: 14px 16px;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+.nav li {
+	float: none;
+	top: 50%;
+	left: 50%;
+	display: inline;
+}
+
+.nav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.nav li a:hover {
+	background-color: #111;
+}
